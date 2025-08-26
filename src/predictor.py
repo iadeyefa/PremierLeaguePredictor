@@ -69,6 +69,8 @@ print(predicted_table)
 # -----------------------------
 import matplotlib.pyplot as plt
 
+plt.ion()
+
 plt.figure(figsize=(12,6))
 plt.bar(predicted_table["Team"], predicted_table["Predicted Points"], color="skyblue")
 plt.xticks(rotation=90)
