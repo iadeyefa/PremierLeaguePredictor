@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+# core of the functionality within this file
+
 # -----------------------------
 # 1. Define Teams and Initial Elo Ratings
 # -----------------------------
